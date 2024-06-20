@@ -1,0 +1,145 @@
+
+*{
+    margin: 0;
+}
+
+/*home page*/
+
+.body-home{
+        background-image: url("صور الويب/‏‏لقطة الشاشة (155).png");
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-attachment: fixed; 
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+.table-home{
+        margin: 0 auto;
+        width: 400px;
+        height: 200px;
+
+    }
+
+    .button1-home{
+            position: absolute;
+            right: 40%;
+            top: 20%;
+            background: rgb(96, 121, 145);
+            width: 80px;
+            height: 40px;
+        }
+    .button2-home{
+            position: absolute;
+            left: 40%;
+            top: 20%;
+            background: rgb(96, 121, 145);
+            width: 80px;
+            height: 40px;
+        }
+    .tr-home{
+            text-align: center;
+            font-size: large;
+        }
+    .h1-home{
+            color: #333;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            background: rgb(7, 168, 243);
+
+        }
+
+        /*AbutUs page*/
+
+        .body-Abut{
+            background-image: url("صور الويب/‏‏لقطة الشاشة (158).png");
+            background-size: cover; 
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: rgba(255, 255, 255, 0.8);
+
+        }
+        .body-Abut h1{
+            color: white;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+            text-align: center;
+        }
+        .div-Abut{
+            text-align: center;
+        }
+        .div-Abut a{
+            color: rgb(252, 252, 252);
+            font-size: x-large;
+            
+        }
+        
+        /*Properties page*/
+
+        .table-prop{
+            border-collapse: collapse;
+            background: rgb(130, 207, 226);
+            width: 100%;
+        }
+
+        .thead-prop{
+            background: rgb(20, 181, 221);
+        }
+
+        .table-prop th,td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        
+        .details{
+            display: none;
+          }
+
+          #button-follow{
+            display: none;
+          }
+          
+          #form-container{
+            display: none;
+          }
+
+        .h1-prop{
+                display: flex;
+                justify-content: center;
+                background: rgb(7, 168, 243);
+            }
+
+        img{
+            width: 210px;
+            height: 210px;
+        }
+
+        .div-prop1{
+            border: 5px rgb(83, 83, 187) ridge;
+            padding: 50px 100px;
+            background-color: skyblue;
+            width: 600px;
+            margin:20%;
+            
+        }
+           
+        .div-prop1 button{
+            
+            background: rgb(96, 121, 145);
+            width: 80px;
+            height: 40px;
+            font: medium bold;
+            
+        }
+
+       .div-prop1 h1{
+            text-align: right;
+            font-family:Impact, 'Arial Narrow Bold', sans-serif;
+            color: rgb(14, 17, 207);
+
+        }
+
+       .div-prop1 input{
+            position: absolute;
+            right: 40%;
+        }
+
